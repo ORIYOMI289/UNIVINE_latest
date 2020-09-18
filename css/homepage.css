@@ -1,0 +1,112 @@
+/* homepage page */
+.navignbar {
+    background: rgb(247, 185, 247, .7);
+}   
+.buttonp, .footer {
+    background-color: rgb(247, 185, 247);
+}
+.students {
+    margin-top: 3.5em;
+    background-image: linear-gradient(rgba(3, 3, 3, .5), rgba(3, 3, 3, .5)), url(../img/post-imgfour-720x544.jpg);
+    height: 35em;
+    padding-top: 8em;
+    overflow: hidden;
+}
+.introUnivine {
+    color: rgb(9, 13, 77);
+}
+h1 {
+    font-family: verdana;
+}
+.icon {
+    font-size: 2em;
+    color: rgb(9, 13, 77);
+    background: rgb(248, 245, 245);
+    padding: 1em;
+    border-radius: 50%;
+}
+.courses {
+    background-image: linear-gradient( to right, rgba(60,65,161, .9), rgb(9, 13, 77)), url(../img/download\ \(1\).jpg);
+    
+}
+.students, .courses {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+li {
+    margin-bottom: 5px;
+}
+/* forgotPassword  page*/
+.forgetPassword, .SignIn, .signUp {
+    background:linear-gradient(to right, rgba(60,65,161, .6), rgba(60,65,161));
+    padding: 5em 0;
+}
+.form1 {
+    height: 20em;
+    width: 26em;
+    background: linear-gradient(to right, rgba(60,65,161, .1), rgba(60,65,161));
+    border-radius: 15px;
+    box-shadow:rgb(14,189,202) 20px -20px;
+    margin-top: 6em;
+}
+input {
+   outline: none;
+   border-radius: 5px;
+}
+.email {
+   width: 19em; 
+}
+.button {
+    padding: 10px 5.9em;
+    background: rgb(14,189,202);   
+}
+
+/* signIn page */
+.form2 {
+    height: 28em;
+    width: 27em;
+    background: linear-gradient(to right, rgba(60,65,161, .1), rgba(60,65,161));
+    border-radius: 15px;
+    box-shadow:rgb(14,189,202) 20px -20px;
+    /* margin-top: 6em; */
+    padding-left: 2em;
+}
+.email2, .Password {
+    width: 23em;
+}
+.button2 {
+    padding: 10px 10em;
+    background: rgb(14,189,202);
+}
+
+/* sign Up page*/
+.form3 {
+    height: 31em;
+    width: 27em;
+    background: linear-gradient(to right, rgba(60,65,161, .1), rgba(60,65,161));
+    border-radius: 15px;
+    box-shadow:rgb(14,189,202) 20px -20px;
+    margin-top: 4em;
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .form2, .form3,.form1 {
+      width: 20em ;
+      padding-right: 10px;
+    }
+    .email2, .Password {
+        max-width: 16em;
+    }
+    .button2 {
+        padding: 10px 6.5em;
+    }
+    .email {
+        width: 17em; 
+     }
+     .button {
+         padding: 10px 4.7em;
+     }
+  }
+  
