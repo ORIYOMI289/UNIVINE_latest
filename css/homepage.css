@@ -82,7 +82,6 @@ input {
 
 /* sign Up page*/
 .form3 {
-    height: 31em;
     width: 27em;
     background: linear-gradient(to right, rgba(60,65,161, .1), rgba(60,65,161));
     border-radius: 15px;
@@ -93,14 +92,15 @@ input {
 
 @media screen and (max-width: 768px) {
     .form2, .form3,.form1 {
-      width: 20em ;
+      width: 18em ;
       padding-right: 10px;
+      box-sizing: border-box;
     }
     .email2, .Password {
-        max-width: 16em;
+        width: 100%;
     }
     .button2 {
-        padding: 10px 6.5em;
+        padding: 10px 6em;
     }
     .email {
         width: 17em; 
